@@ -1,6 +1,6 @@
 # BombaszVids – Windows app
 
-Magyar feliratos animék – [bombasz.hu](https://bombasz.hu)
+BombaszVids – [bombasz.hu](https://bombasz.hu)
 
 **Letöltés:** [BombaszVids-Setup.exe](https://github.com/adam20070702/bombasz-releases/releases/latest/download/BombaszVids-Setup.exe)
 
