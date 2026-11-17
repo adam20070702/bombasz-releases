@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adatvédelmi tájékoztató – BombaszVids</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <a class="logo" href="./">Bombasz<span>.</span></a>
+  <h1>Adatvédelmi tájékoztató</h1>
+  <p class="muted">Hatályos: 2026. november 17.</p>
+
+  <p>A BombaszVids zártkörű, nem kereskedelmi app (Windows és Android), egy meghívott baráti kör számára. Ez a tájékoztató leírja, milyen adatokat kezel az app, mire használja őket, és hogyan törölheted őket.</p>
+
+  <h2>Milyen adatokat tárolunk</h2>
+  <ul>
+    <li><b>Fiók:</b> e-mail-cím, felhasználónév, profilkép.</li>
+    <li><b>Az app használata:</b> nézési haladás és előzmények, saját és közös listák, kedvencek, értékelések, zenei könyvtár és hallgatási előzmények, hallgatási statisztika.</li>
+    <li><b>Közösségi funkciók:</b> az általad írt üzenetek (és elküldött képek), kommentek, fórumbejegyzések, ötletek, jelentések; az online állapotod (az ismerőseid látják).</li>
+    <li><b>Telepítés:</b> az Android appnál az értesítések küldéséhez szükséges azonosító; hibajelentés esetén a hiba leírása és az eszköz típusa.</li>
+  </ul>
+  <p>Ezeket a Google Firebase szolgáltatásai tárolják (Firebase Authentication, Cloud Firestore, Realtime Database, Cloud Messaging), hogy a fiókod minden eszközödön szinkronban legyen. Hirdetés, eladás, profilozás, reklámcélú követés nincs; az adatokat harmadik félnek nem adjuk át.</p>
+  <p>A letöltött videók, a gépen lévő zenék és a lista-importhoz szükséges belépések csak a saját eszközödön vannak.</p>
+
+  <h2>Lejátszási listák importálása</h2>
+  <p>A Zene → Könyvtár → Importálás funkcióval a saját listáidat hozhatod át más szolgáltatásokból. Csak akkor működik, ha te elindítod, és csak arra használjuk, hogy a listáidat egy saját BombaszVids-listaként elmentsd.</p>
+  <ul>
+    <li><b>Spotify, Apple Music:</b> a belépés a szolgáltatás saját weboldalán történik, az app egy ablakában; a jelszavadat az app nem látja és nem tárolja. Az app a listáid és a kedvelt dalaid címét, előadóját, albumát és hosszát olvassa ki. A belépés csak a saját gépeden marad meg, és az Importálás ablakban bármikor kiléphetsz.</li>
+    <li><b>YouTube (Google-fiók):</b> a belépés a Google saját oldalán történik, és az app csak <i>olvasási</i> hozzáférést kér (<code>youtube.readonly</code>): a lejátszási listáid és a kedvelt videóid listáját olvassa ki az importáláshoz. Semmit nem módosít, nem tölt fel, nem töröl a YouTube-fiókodban. A Google-belépés kulcsa titkosítva csak a saját gépeden van; a mi szervereinkre nem kerül.</li>
+    <li>A beolvasott dalok címét és előadóját a YouTube Music keresőjébe küldjük, hogy megtaláljuk a lejátszható párjukat. A kész lista a fiókodban tárolódik, mint bármely más saját listád.</li>
+  </ul>
+  <p>A BombaszVids a Google API-kból kapott adatok használatánál és továbbításánál betartja a <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> szabályait, a „Limited Use" (korlátozott felhasználás) követelményekkel együtt. A YouTube-adatokra a <a href="https://www.youtube.com/t/terms">YouTube Általános Szerződési Feltételei</a> és a <a href="https://policies.google.com/privacy">Google adatvédelmi irányelvei</a> is vonatkoznak.</p>
+  <p>A Google-hozzáférést bármikor visszavonhatod: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Discord</h2>
+  <p>A Windows app – ha fut a gépeden a Discord – a Discord-állapotodban megmutathatja, mit nézel vagy hallgatsz. Ez a gépeden belül, a Discord appon keresztül történik.</p>
+
+  <h2>Adataid letöltése és törlése</h2>
+  <p>Az appban a Beállítások → Adataim részben minden, a fiókodhoz tartozó adatot megtekinthetsz és letölthetsz. A fiókod és az adataid törlését az appban (Ötletek / Jelentések), vagy a fejlesztőnek a <a href="https://github.com/adam20070702">GitHub-profilján</a> keresztül kérheted; a kérést 30 napon belül teljesítjük.</p>
+
+  <h2>Változások</h2>
+  <p>Ha a tájékoztató változik, a frissített változat ezen az oldalon jelenik meg, a hatályosság dátumával.</p>
+
+  <footer id="en">
+    <h2>English summary</h2>
+    <p>BombaszVids is a private, non-commercial video and music player app (Windows, Android) for an invite-only group. It stores your account (email, username, avatar), your app activity (watch progress, lists, likes, ratings, music library and history), and what you post (messages, comments, forum posts) in Google Firebase to sync across your devices. No ads, no selling or sharing of data with third parties.</p>
+    <p><b>Playlist import:</b> only when you start it. For Spotify and Apple Music you sign in on their own website inside an app window; the app never sees your password and reads only the titles, artists, albums and durations of your playlists and liked songs. For YouTube the app requests read-only access (<code>youtube.readonly</code>) to list your playlists and liked videos; it never modifies anything in your account, and the Google token is stored encrypted only on your own computer, never on our servers. Track titles and artists are searched on YouTube Music to find playable matches, and the result is saved as one of your own lists.</p>
+    <p>BombaszVids' use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. You can revoke Google access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. To delete your account and data, ask in the app or via the developer's <a href="https://github.com/adam20070702">GitHub profile</a>.</p>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+:root { --bg: #000; --text: #f2efe9; --muted: #a6a29b; --line: #26262a; }
+* { box-sizing: border-box; }
+html { background: var(--bg); color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+.logo { font: 800 30px/1 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--text); text-decoration: none; }
+.logo span { color: var(--muted); }
+h1 { font-size: 30px; line-height: 1.2; margin: 36px 0 6px; }
+h2 { font-size: 19px; margin: 34px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); }
+p, li { color: #d9d5ce; }
+.muted { color: var(--muted); font-size: 14px; }
+a { color: var(--text); }
+ul { padding-left: 20px; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+nav a { padding: 9px 14px; border: 1px solid var(--line); border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 14px; }
+nav a:hover { border-color: var(--muted); }
+footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); }
